@@ -1,0 +1,20 @@
+from modelscope.hub.api import HubApi
+
+YOUR_ACCESS_TOKEN = 'ffe97f8c-2dcf-425d-aeb3-63faba370464'
+
+api = HubApi()
+api.login(YOUR_ACCESS_TOKEN)
+api.push_model(
+    model_id="yangruowei/homework1", 
+    model_dir=""C:\Users\lenovo\Documents\WeChat Files\wxid_3znp1vjsj97p22\FileStorage\File\2024-01\first try(1)(1).ipynb"" # 本地模型目录，要求目录中必须包含configuration.json
+)
+from modelscope.hub.api import HubApi
+
+YOUR_ACCESS_TOKEN = 'ffe97f8c-2dcf-425d-aeb3-63faba370464'
+
+api = HubApi()
+api.login(YOUR_ACCESS_TOKEN)
+api.push_model(
+    model_id="yangruowei/homework1", 
+    model_dir=""C:\Users\lenovo\Documents\WeChat Files\wxid_3znp1vjsj97p22\FileStorage\File\2024-01\first try(1)(1).ipynb"" # 本地模型目录，要求目录中必须包含configuration.json
+)
